@@ -1,0 +1,41 @@
+.headin {
+  text-align: center;
+  color: #f1781f;
+  font-family: "Poppins", sans-serif;
+}
+.list {
+  background-color: black;
+}
+
+.products {
+  color: white;
+  text-align: center;
+  margin-top: 5%;
+  list-style-type: square;
+  font-size: large;
+  padding-top: 10px;
+}
+
+.help {
+  text-align: center;
+  color: #f1781f;
+  font-family: "Poppins", sans-serif;
+}
+
+.products a {
+  color: white;
+  text-decoration: none;
+}
+.productimg {
+  margin-top: 20px;
+  border-color: white;
+}
+
+.products li {
+  margin-top: 50px;
+  font-size: 30px;
+}
+
+#disclaimer {
+  color: white;
+}

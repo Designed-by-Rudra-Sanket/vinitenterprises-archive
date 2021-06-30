@@ -1,0 +1,52 @@
+.heading {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+.information {
+  margin-top: 3%;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+}
+
+@media only screen and (max-width: 950px) {
+  .head-image {
+    width: 45%;
+  }
+
+  .fns {
+    text-align: center;
+    line-height: 40px;
+  }
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  font-size: 35px;
+}
+
+.features {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  line-height: 50px;
+}
+#features {
+  float: left;
+}
+
+.fns {
+  margin-left: 20%;
+}
+
+ul {
+  list-style: none;
+}
+
+#feat {
+  float: left;
+}
+.snf {
+  margin-left: 15%;
+  margin-bottom: 30%;
+}

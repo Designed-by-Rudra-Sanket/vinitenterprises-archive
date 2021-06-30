@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money Counting Machine</title>
+    <link rel="shortcut icon" href="/img/logo.jpg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/basics.css">
+</head>
+
+<body>
+    <nav class="navbar nav-bg h-nav" style="
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+  ">
+        <ul class="nav-list v-class">
+            <div class="logo">
+                <a href="index.html"><img src="/img/logo.jpg" alt="Logo" /></a>
+            </div>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+            <li><a href="/products.html">Products</a></li>
+            <li><a href="/to-buy.html">Wish List</a></li>
+        </ul>
+    </nav>
+    <footer>
+        <h2 class="findonmap">Find us on Google Maps</h2>
+        <a href="https://www.google.com/maps?q=16.990137100219727,73.3158950805664&z=17&hl=en"> <img src="/img/maps.png"
+                height="75px" id="maps" alt="Google Maps Logo"></a>
+        <h2 class="devby" onclick="shownames()">
+            Website developed by
+        </h2>
+        <h2 id="names"></h2>
+
+        <h2 id="last">Site developed for</h2>
+        <h2 class="orange">Vinit Enterprises</h2>
+        <img id="last" src="/img/logo.jpg" width="40%" alt="Logo">
+    </footer>
+
+</body>
+<script src="/js/app.js"></script>
+
+</html>

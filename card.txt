@@ -1,0 +1,16 @@
+ <div class="card">
+        <img src="" alt="" width="100%">
+        <h1></h1>
+        <ul style="list-style: none;">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        <p><a
+                href="">
+                <button class="button-wa">Contact for more details now! <i class="fab fa-whatsapp"></i></button>
+            </a></p>
+    </div>

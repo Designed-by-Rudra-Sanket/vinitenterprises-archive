@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: linear-gradient(120deg, yellow, white, black);
+            background-repeat: no-repeat;
+        }
+
+        .container {
+            width: 150px;
+            height: 500px;
+        }
+    </style>
+</head>
+
+<body>
+    <input height="200px" style="font-size: 14px;" size="200" placeholder="Place as many question marks as you like (?)"
+        id="marks"><br>
+
+    <button id="submit()" type="submit" onclick="submit()">Submit</button>
+    <p>The number of question marks given by you is</p>
+    <p id="count"></p>
+    <h2>So here are my </h2>
+    <h2 id="mynumber">
+    </h2>
+    <div class="container">
+        <h1 id="hereitis"></h1>
+    </div>
+
+
+</body>
+<script>
+
+
+
+    function submit() {
+        let noword = document.getElementById('marks').value;
+        var n = noword.length;
+        document.cookie = "number =" + n
+        document.getElementById('count').innerHTML = n;
+        var needed = n + 1;
+        Q = "?";
+        let h = Q.repeat(needed);
+        document.getElementById('hereitis').innerText = h;
+        document.getElementById('mynumber').innerText = needed + " question marks";
+
+    }
+
+
+
+
+
+
+</script>
+
+</html>

@@ -1,0 +1,24 @@
+.heading {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+.information {
+  margin-top: 3%;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+}
+
+@media only screen and (max-width: 950px) {
+  .head-image {
+    width: 45%;
+  }
+}
+ul {
+  list-style: none;
+  line-height: 35px;
+}
+
+.fa-whatsapp {
+  color: green;
+}
